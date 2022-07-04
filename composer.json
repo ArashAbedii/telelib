@@ -1,0 +1,19 @@
+{
+    "name": "arashabedii/telelib",
+    "type": "lib",
+    "description": "simple php library for Telegram Bot API",
+    "keywords": ["lib", "telelib", "telegram", "bot", "api", "php"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ArashAbedii\\":"src/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
